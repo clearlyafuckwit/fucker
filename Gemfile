@@ -1,6 +1,6 @@
 source "http://rubygems.org"
 
-# Specify your gem's dependencies in faker.gemspec
+# Specify your gem's dependencies in fucker.gemspec
 gemspec
 
 group :development, :test do

@@ -1,8 +1,8 @@
 require File.expand_path(File.dirname(__FILE__) + '/test_helper.rb')
 
-class TestFakerAvatar < Test::Unit::TestCase
+class TestFuckerAvatar < Test::Unit::TestCase
   def setup
-    @tester = Faker::Avatar
+    @tester = Fucker::Avatar
   end
 
   def test_avatar
@@ -10,11 +10,11 @@ class TestFakerAvatar < Test::Unit::TestCase
   end
 
   def test_avatar_with_param
-    assert @tester.image('faker').match(/http:\/\/robohash\.org\/(.+)\.png/)[1] == 'faker'
+    assert @tester.image('fucker').match(/http:\/\/robohash\.org\/(.+)\.png/)[1] == 'fucker'
   end
 
   def test_avatar_with_correct_size
-    assert @tester.image('faker', '150x320').match(/http:\/\/robohash\.org\/faker\.png\?size=(.+)/)[1] == '150x320'
+    assert @tester.image('fucker', '150x320').match(/http:\/\/robohash\.org\/fucker\.png\?size=(.+)/)[1] == '150x320'
   end
 
   def test_avatar_with_incorrect_size
@@ -24,7 +24,7 @@ class TestFakerAvatar < Test::Unit::TestCase
   end
 
   def test_avatar_with_supported_format
-    assert @tester.image('faker', '300x300', 'jpg').match(/http:\/\/robohash\.org\/faker\.jpg/)
+    assert @tester.image('fucker', '300x300', 'jpg').match(/http:\/\/robohash\.org\/fucker\.jpg/)
   end
 
   def test_avatar_with_incorrect_format

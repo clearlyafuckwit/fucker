@@ -11,10 +11,10 @@ end
 require 'redcloth'
 require 'syntax/convertors/html'
 require 'erb'
-require File.dirname(__FILE__) + '/../lib/faker/version.rb'
+require File.dirname(__FILE__) + '/../lib/fucker/version.rb'
 
-version  = Faker::VERSION
-download = 'http://rubyforge.org/projects/faker'
+version  = Fucker::VERSION
+download = 'http://rubyforge.org/projects/fucker'
 
 class Fixnum
   def ordinal

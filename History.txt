@@ -2,8 +2,8 @@
 * Updated Russian locale
 * Added EIN generator
 * Fixed Swedish locale
-* Added birthday to Faker::Date
-* Added Faker::App
+* Added birthday to Fucker::Date
+* Added Fucker::App
 
 == 1.4.2 2014-07-15
 * Added Swedish locale
@@ -83,7 +83,7 @@
 
 == 0.9.3 2010-12-28
 * 1 minor enhancement:
-  * Added a faker namespace for translations
+  * Added a fucker namespace for translations
 
 == 0.9.2 2010-12-22
 * 1 bug fix:

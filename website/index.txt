@@ -1,27 +1,27 @@
-h1. faker
+h1. fucker
 
 h2. What
 
-Faker, a port of Data::Faker from Perl, is used to easily generate fake data: names, addresses, phone numbers, etc.  The port was motivated by a need for a bunch of fake data to make good-looking screenshots for "Catch the Best":http://catchthebest.com. :)
+Fucker, a port of Data::Fucker from Perl, is used to easily generate fake data: names, addresses, phone numbers, etc.  The port was motivated by a need for a bunch of fake data to make good-looking screenshots for "Catch the Best":http://catchthebest.com. :)
 
 h2. Installing
 
-<pre syntax="ruby">sudo gem install faker</pre>
+<pre syntax="ruby">sudo gem install fucker</pre>
 
 h2. Usage
 
-Faker::Name.name => "Bob Hope"
+Fucker::Name.name => "Bob Hope"
 
-"Read the docs":http://rubydoc.info/github/stympy/faker/master/frames
+"Read the docs":http://rubydoc.info/github/stympy/fucker/master/frames
 
 h2. Forum
 
-"http://groups.google.com/group/ruby-faker":http://groups.google.com/group/ruby-faker
+"http://groups.google.com/group/ruby-fucker":http://groups.google.com/group/ruby-fucker
 
 
 h2. How to submit patches
 
-Fork the code at "github":https://github.com/stympy/faker, make your changes, and send me a pull request.
+Fork the code at "github":https://github.com/stympy/fucker, make your changes, and send me a pull request.
 
 h2. License
 
@@ -29,5 +29,5 @@ This code is free to use under the terms of the MIT license.
 
 h2. Contact
 
-Comments and feedback are welcome. Send an email to Benjamin Curtis via the "forum":http://groups.google.com/group/ruby-faker.
+Comments and feedback are welcome. Send an email to Benjamin Curtis via the "forum":http://groups.google.com/group/ruby-fucker.
 
