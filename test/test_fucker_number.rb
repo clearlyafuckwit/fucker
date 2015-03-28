@@ -25,7 +25,7 @@ class TestFuckerNumber < Test::Unit::TestCase
 
   def test_digit
     assert @tester.digit.match(/[0-9]{1}/)
-    assert (1..1000).collect {|i| @tester.digit == "9"}.include?(true)
+    assert((1..1000).collect {|i| @tester.digit == "9"}.include?(true))
   end
 
   def test_between

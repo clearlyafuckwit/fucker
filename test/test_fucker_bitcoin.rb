@@ -7,8 +7,8 @@ class TestFuckerBitcoin < Test::Unit::TestCase
   end
 
   def test_testnet_address
-    assert_match /\A[mn][1-9A-Za-z]{32,34}\Z/, Fucker::Bitcoin.testnet_address
-    assert_not_match /[OIl]/, Fucker::Bitcoin.testnet_address
+    assert_match(/\A[mn][1-9A-Za-z]{32,34}\Z/, Fucker::Bitcoin.testnet_address)
+    assert_not_match(/[OIl]/, Fucker::Bitcoin.testnet_address)
   end
 
 end
