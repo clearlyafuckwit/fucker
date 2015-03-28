@@ -407,6 +407,19 @@ Fucker::App.author #=> "Daphne Swift"
 
 ```
 
+###Fucker::Dick
+-----------------
+
+Ladies and gentlemen, we have a Random Dick Generator.
+
+```ruby
+
+Fucker::Dick.dick #=> "8=====D"
+
+Fucker::Dick.jizzing_dick #=> "B---D~~~~"
+
+```
+
 Customization
 ------------
 Since you may want to make addresses and other types of data look different
