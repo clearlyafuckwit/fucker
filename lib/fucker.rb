@@ -177,6 +177,7 @@ require 'fucker/time'
 require 'fucker/number'
 require 'fucker/hacker'
 require 'fucker/app'
+require 'fucker/dick'
 
 require 'extensions/array'
 require 'extensions/symbol'
