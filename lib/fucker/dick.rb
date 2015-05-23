@@ -8,13 +8,13 @@ module Fucker
 
       def dick(length = nil)
         length ||= rand(0..DEFAULT_MAX_DICK_LENGTH)
-        "#{balls}#{shaft(length)}#{head_char}"
+        "#{balls}#{shaft(length)}#{head}"
       end
 
       def jizzing_dick(length = nil, jizz_length = nil)
         length ||= rand(DEFAULT_MIN_DICK_LENGTH..DEFAULT_MAX_DICK_LENGTH)
         jizz_length ||= rand(DEFAULT_MIN_JIZZ_LENGTH..DEFAULT_MAX_DICK_LENGTH)
-        "#{balls}#{shaft(length)}#{head_char}#{jizz(jizz_length)}"
+        "#{balls}#{shaft(length)}#{head}#{jizz(jizz_length)}"
       end
 
       private
@@ -36,8 +36,12 @@ module Fucker
         ['-','=']
       end
 
-      def head_char
-        'D'
+      def head
+        head_chars.sample
+      end
+
+      def head_chars
+        ['D', '|)']
       end
 
       def jizz(length)
